@@ -186,7 +186,8 @@ a:hover,
 .visited__list,
 .tv-program__list,
 .auto-news__list,
-.events__list
+.events__list,
+.region__list
 {
     padding-left: 0;
 }
@@ -254,4 +255,18 @@ a:hover,
 .auto-news__list::-webkit-scrollbar
 {
     width: 0;
+}
+
+.region__item
+{
+    list-style-type: none;
+    font-weight: 700;
+    display: inline-block;
+    color: black;
+}
+
+.region__item:hover
+{
+    color: #c00;
+    cursor: pointer;
 }

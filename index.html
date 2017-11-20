@@ -2,8 +2,293 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" type="text/css">
     <title>Задача «Морда»</title>
 </head>
 <body>
+<main class="page">
+    <p><a class="city">Екатеринбург</a></p>
+    <div class="settings">
+        <p class="settings__text">Настройка</p>
+    </div>
+    <div class="mail">
+        <div class="mail__login">
+            <p class="mail__login-text"><strong>login</strong></p>
+        </div>
+        <div class="mail__letters">
+            <p>Почта <strong>138</strong></p>
+        </div>
+    </div>
+    <div class="news">
+        <div class="news__header">
+            <a class="news__all" href="#">Сейчас в СМИ</a>
+            <a class="news__ekb" href="#">в Екатеринбурге</a>
+            <a class="news__date">20 ноября, понедельник 10:30</a>
+        </div>
+        <ul class="news__list">
+            <li>
+                <a class="news__link" href="#">
+                    Пат&shy;ри&shy;арх Ки&shy;рилл пре&shy;ду&shy;пре&shy;дил о
+                    при&shy;бли&shy;же&shy;нии кон&shy;ца све&shy;та
+                </a>
+            </li>
+            <li>
+                <a class="news__link" href="#">
+                    Укра&shy;ин&shy;ско&shy;му жур&shy;на&shy;ли&shy;сту в Бе&shy;ло&shy;рус&shy;
+                    сии предъ&shy;яв&shy;ле&shy;но об&shy;ви&shy;не&shy;ние в шпи&shy;о&shy;на&shy;же
+                </a>
+            </li>
+            <li>
+                <a class="news__link" href="#">
+                    Школь&shy;ник из ЯНАО рас&shy;ска&shy;зал в Бун&shy;дес&shy;та&shy;ге о
+                    «не&shy;вин&shy;ных сол&shy;да&shy;тах вер&shy;мах&shy;та»
+                </a>
+            </li>
+            <li>
+                <a class="news__link" href="#">
+                    «Аль&shy;тер&shy;на&shy;ти&shy;ва для Гер&shy;ма&shy;нии»
+                    при&shy;зва&shy;ла Мер&shy;кель уй&shy;ти в от&shy;став&shy;ку
+                </a>
+            </li>
+            <li>
+                <a class="news__link" href="#">
+                    Мать и сест&shy;ра пол&shy;ков&shy;ни&shy;ка За&shy;хар&shy;чен&shy;ко
+                    по&shy;ки&shy;ну&shy;ли Рос&shy;сию
+                </a>
+            </li>
+        </ul>
+        <div class="news__rates">
+            <div class="news__rates-item">
+                <strong class="news__rates-item-name">USD ЦБ</strong>
+                <span class="news__rates-item-value">59,27</span>
+                <span class="news__rates-item-difference">−0,36</span>
+            </div>
+            <div class="news__rates-item">
+                <strong class="news__rates-item-name">EUR ЦБ</strong>
+                <span class="news__rates-item-value">69,67</span>
+                <span class="news__rates-item-difference">−0,69</span>
+            </div>
+            <div class="news__rates-item">
+                <strong class="news__rates-item-name">НЕФТЬ</strong>
+                <span class="news__rates-item-value">61.95</span>
+                <span class="news__rates-item-difference">−1,26%</span>
+            </div>
+        </div>
+    </div>
+    <div class="logo">
+        <div class="logo__image">
+            <img src="images/logo.png" alt="logo">
+        </div>
+    </div>
+    <div class="search">
+        <div class="search__tabs">
+            <a class="search__link" href="#">Видео</a>
+            <a class="search__link" href="#">Картинки</a>
+            <a class="search__link" href="#">Новости</a>
+            <a class="search__link" href="#">Карты</a>
+            <a class="search__link" href="#">Маркет</a>
+            <a class="search__link" href="#">Переводчик</a>
+            <a class="search__link" href="#">Музыка</a>
+            <a class="search__link" href="#">ещё</a>
+        </div>
+        <label>
+            <input type="text" class="search__input">
+        </label>
+        <button class="search__button">Найти</button>
+        <p class="search__hint">
+            Найдётся всё. Например, <a class="search__hint-example" href="#">Пушистый сфинкс</a>
+        </p>
+    </div>
+    <section class="banner">
+        <img src="images/gaga.jpg" alt="рекламный банер">
+    </section>
+    <div class="widgets">
+        <div class="column column-1">
+            <section class="widget visited">
+                <h3>
+                    <a class="visited__header" href="#">Посещаемое</a>
+                </h3>
+                <ul class="visited__list">
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Мар&shy;кет</strong></a>
+                            — то&shy;ва&shy;ры из Ки&shy;тая
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Ав&shy;то.ру</strong></a>
+                            — об&shy;нов&shy;лён&shy;ный Tucson
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Не&shy;дви&shy;жи&shy;мость</strong></a>
+                            — снять ма&shy;ши&shy;но&shy;ме&shy;сто
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Ра&shy;бо&shy;та</strong></a>
+                            — раз&shy;но&shy;ра&shy;бо&shy;чий
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Пу&shy;те&shy;ше&shy;ствия</strong></a>
+                            — ту&shy;ры в Ита&shy;лию
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#">
+                                <strong>Так&shy;си</strong></a>
+                            — до&shy;ступ&shy;ные та&shy;ри&shy;фы
+                        </p>
+                    </li>
+                    <li class="visited__item">
+                        <p class="visited__item-text">
+                            <a class="visited__link" href="#"><strong>Ви&shy;део</strong></a> —
+                            ве&shy;щи сво&shy;и&shy;ми ру&shy;ка&shy;ми
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <section class="widget joke">
+                <div class="joke__item">
+                    <h3>
+                        <a class="joke__header" href="#">Лучшие анекдоты</a>
+                    </h3>
+                    <p class="joke__item-text">
+                        Раздел: <a href="#">Медицинские</a>
+                        <br>
+                        - Вас ле&shy;чить хо&shy;ро&shy;шо или бес&shy;плат&shy;но?
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class="column column-2">
+            <section class="widget tv-program">
+                <h3>
+                    <a class="tv-program__header" href="#">Телепрограмма</a>
+                    <img src="images/tv-online.png" alt="ТВ онлайн">
+                </h3>
+                <ul class="tv-program__list">
+                    <li class="tv-program__item">
+                        21:30 Боль&shy;шие день&shy;ги
+                        <span class="tv-program__item-channel">Пер&shy;вый</span>
+                    </li>
+                    <li class="tv-program__item">
+                        21:45 Во&shy;дить по-рус&shy;ски
+                        <span class="tv-program__item-channel">РЕН ТВ</span>
+                    </li>
+                    <li class="tv-program__item">
+                        22:00 По&shy;ли&shy;цей&shy;ский с Руб&shy;лёв&shy;ки
+                        <span class="tv-program__item-channel">ТНТ</span>
+                    </li>
+                    <li class="tv-program__item">
+                        22:15 Ко&shy;сти
+                        <span class="tv-program__item-channel">ТВ-3</span>
+                    </li>
+                    <li class="tv-program__item">
+                        22:30 След
+                        <span class="tv-program__item-channel">Пя&shy;тый ка&shy;нал</span>
+                    </li>
+                    <li class="tv-program__item">
+                        22:30 Смер&shy;тель&shy;ный код…
+                        <span class="tv-program__item-channel">ТВ Центр</span>
+                    </li>
+                </ul>
+            </section>
+            <section class="widget auto-news">
+                <h3>
+                    <a class="auto-news__header" href="#">Автомобильные новости</a>
+                </h3>
+                <div class="auto-news__wrapper">
+                    <ul class="auto-news__list">
+                        <li class="auto-news__item">
+                            В Ка&shy;ли&shy;фор&shy;нии про&shy;да&shy;ют
+                            «Ни&shy;ву» 1980 го&shy;да вы&shy;пус&shy;ка за $7600
+                        </li>
+                        <li class="auto-news__item">
+                            Hyundai Ioniq стал луч&shy;шим
+                            жен&shy;ским ав&shy;то&shy;мо&shy;би&shy;лем го&shy;да
+                        </li>
+                        <li class="auto-news__item">
+                            В Ека&shy;те&shy;рин&shy;бур&shy;ге про&shy;хо&shy;дят
+                            ис&shy;пы&shy;та&shy;ния трол&shy;лей&shy;бу&shy;са с
+                            воз&shy;мож&shy;но&shy;стью ав&shy;то&shy;ном&shy;но&shy;го хо&shy;да
+                        </li>
+                        <li class="auto-news__item">
+                            В Лон&shy;до&shy;не ав&shy;то&shy;бу&shy;сы
+                            пе&shy;ре&shy;во&shy;дят на «ко&shy;фей&shy;ное топ&shy;ли&shy;во»
+                        </li>
+                        <li class="auto-news__item">Во Фран&shy;ции на&shy;шли
+                            свал&shy;ку бо&shy;ли&shy;дов Фор&shy;му&shy;лы 1
+                        </li>
+                        <li class="auto-news__item">Volvo объ&shy;яви&shy;ла
+                            рос&shy;сий&shy;ские це&shy;ны на но&shy;вый XC60
+                        </li >
+                        <li class="auto-news__item">Ре&shy;ги&shy;о&shy;наль&shy;ным
+                            вла&shy;стям раз&shy;ре&shy;шат вы&shy;би&shy;рать,
+                            ко&shy;го пус&shy;кать на вы&shy;де&shy;лен&shy;ные
+                            по&shy;ло&shy;сы
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <div class="column column-3">
+            <section class="widget weather">
+                <h3>
+                    <a class="weather__header" href="#">Погода</a>
+                    <img src="images/weather.png" alt="облачно с прояснениями"> −3 °C
+                </h3>
+                <p>Утро −2,  день 0</p>
+            </section>
+            <section class="widget jams">
+                <h3>
+                    <a class="jams__header" href="#">Пробки</a>
+                    <img src="images/jams.png" alt="1 балл"> 1 балл
+                </h3>
+                На дорогах свободно
+            </section>
+            <section class="widget region">
+                <h3>
+                    <a class="region__header" href="#">Кар&shy;та Ека&shy;те&shy;рин&shy;бур&shy;га</a>
+                </h3>
+                <div class="region__services">
+                    <span class="region__service">Так&shy;си</span>
+                    <span class="region__service">Рас&shy;пи&shy;са&shy;ния</span>
+                    <span class="region__service">Меж&shy;ду&shy;го&shy;род&shy;ные
+                        ав&shy;то&shy;бу&shy;сы</span>
+                </div>
+            </section>
+            <section class="widget events">
+                <h3>
+                    <a class="events__header" href="#">Афиша</a>
+                </h3>
+                <ul class="events__list">
+                    <li class="events__item">Prince: Sign O’ the Times
+                        <span class="events__item-info">пре&shy;мье&shy;ра в ср</span></li>
+                    <li class="events__item">Тор: Рагнарёк
+                        <span class="events__item-info">фэн&shy;те&shy;зи</span></li>
+                    <li class="events__item">Ли&shy;га спра&shy;вед&shy;ли&shy;во&shy;сти
+                        <span class="events__item-info">фан&shy;та&shy;сти&shy;ка</span></li>
+                    <li class="events__item">По&shy;след&shy;ний бо&shy;га&shy;тырь
+                        <span class="events__item-info">при&shy;клю&shy;че&shy;ния</span></li>
+                    <li class="events__item">Убий&shy;ство в Во&shy;сточ&shy;ном…
+                        <span class="events__item-info">дра&shy;ма</span></li>
+                    <li class="events__item"><strong>Кон&shy;цер&shy;ты — Oxxxymiron</strong></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</main>
 </body>
 </html>

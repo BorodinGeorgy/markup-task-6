@@ -170,7 +170,8 @@ a:hover,
     box-sizing: border-box;
 }
 
-.search__input:focus
+.search__input:focus,
+.search__button:focus
 {
     outline: none;
 }

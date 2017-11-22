@@ -101,7 +101,8 @@ a:hover,
     padding: 0;
 }
 
-.news__link
+.news__link,
+.visited__link
 {
     color: #000;
 }
@@ -182,7 +183,7 @@ a:hover,
     background-color: #ffdb4d;
     width: 10%;
     padding: 0;
-    margin: 0 0 0 -4px;
+    margin: 0;
     border: none;
     cursor: pointer;
 }
@@ -240,11 +241,6 @@ a:hover,
 .visited__item-text
 {
     margin: 5px 0;
-}
-
-.visited__link
-{
-    color: #000;
 }
 
 .auto-news .widget__item-title
